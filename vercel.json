@@ -1,5 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/under_construction.html" }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "/under_construction.html",
+      "permanent": false
+    }
   ]
 }
+
