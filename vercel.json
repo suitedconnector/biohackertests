@@ -1,10 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/((?!under_construction\\.html).*)",
       "destination": "/under_construction.html",
       "permanent": false
     }
   ]
 }
-
